@@ -1,0 +1,85 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.containerDefault{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.containerActive{ 
+    background-color: #FFFFFF0A;
+    backdrop-filter: blur(40.774227142333984px);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+}
+
+.menu{
+    padding: 2rem;
+    margin-left: 60%;
+    margin-bottom: 1.5rem;
+}
+
+.listOfLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.listOfLinks li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.listOfLinks li a{
+    position: relative;
+}
+
+.listOfLinks li a::before{
+    content: "";
+    position: absolute;
+    width: 1.95rem;
+    height: 3px;
+    bottom: .5rem;
+    left: 52vw;
+    background-color: #FFF;
+    visibility: hidden;
+    rotate: z 90deg;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+}
+
+.listOfLinks li a:hover::before,
+.listOfLinks li a:focus::before {
+    visibility: visible;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+.menuItens a{
+    color: #FFF;
+    font: 400 1rem 'Barlow Condensed';
+    letter-spacing: 0.16875rem;
+    text-transform: uppercase;
+}
+
+.menuItens span{
+    color: #FFF;
+    font: 700 1rem 'Barlow Condensed';
+    letter-spacing: 0.16875rem;
+}
+
+a{
+    text-decoration: none;
+}
