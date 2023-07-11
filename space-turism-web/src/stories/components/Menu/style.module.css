@@ -60,9 +60,16 @@
     transform: scaleY(0);
 }
 
-.listOfLinks li a:hover::before,
+.listOfLinks li a:hover::before{
+    visibility: visible;
+    background: rgba(255, 255, 255, 0.502);;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
 .listOfLinks li a:focus::before {
     visibility: visible;
+    background-color: #FFF;
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
 }
