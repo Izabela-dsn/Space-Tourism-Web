@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    background-color: #0B0D17;
+}
+.home{
+    background-image: url(../../../assets/home/background-home-mobile.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100vw;
+    height: max-content;
+}
+
+.header{
+    padding: 1.5rem;
+    position: absolute;
+}
+
+.header img{
+    width: 40px;
+    height: 40px;
+}
+
+.content{
+    padding: 6rem 0 0 0;
+}
+
+.title{
+    color: #D0D6F9;
+    text-align: center;
+    font: 400 1rem Barlow Condensed;
+    line-height: normal;
+    letter-spacing: 0.16875rem;
+    text-transform: uppercase;
+}
+
+.headingOne{
+    margin: 1rem 0;
+    color: #FFF;
+    font: 400 5rem Bellefair;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.description{
+    color: #D0D6F9;
+    font: 400 0.9rem Barlow;
+    text-align: center;
+    line-height: 1.5625rem;
+    margin: 0 0.1rem;
+}
+
+.actionButton{
+    margin-top: 5rem;
+}
+
+.btn{
+    display: block;
+    width:50%;
+    margin: 0px auto;
+    padding: 4rem 2rem;
+    border-radius: 100%;
+    outline: none;
+    border: none;
+    color: #0B0D17;
+    text-align: center;
+    font: 400 1.25rem Bellefair;    
+    letter-spacing: 0.07813rem;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    box-shadow: 0 0 0 30px #ffffff20;
+}
+
+footer{
+    color: #FFF;
+    background-color: transparent;
+    text-align: center;
+    font: 400 .8rem Bellefair;    
+    margin-top: 3.7rem;
+}
+
+footer a{
+    color: #FFF;
+}
